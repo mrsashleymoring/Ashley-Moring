@@ -1,0 +1,82 @@
+/**** BASE STYLES ****/
+body{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 18px;
+    background: #c5ded5;
+    background-image: linear-gradient(to right, #c5ded5 , #6bb0a5);
+}
+
+h2{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 0;
+}
+
+p{
+    font-weight: lighter;
+    line-height: 36px;
+}
+
+.container{
+    width: 1200px;
+    margin: 10px;
+    padding: 0;
+}
+
+/**** HEADER ****/
+#site-nav{
+    float: left;
+    margin: 0;
+}
+
+#site-nav li{
+    display: inline;
+    list-style: none;
+    font-size: 14px;
+    padding: 0 25px;
+    padding-left: 0;
+}
+
+#site-nav li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #454a48;
+    font-weight: bolder;
+}
+
+h1{
+    float: left;
+    margin: 0;
+    padding-left: 550px;
+    font-size: 60px;
+    text-transform: lowercase;
+    font-weight: lighter;
+}
+
+/**** MAIN ****/
+.main{
+    float: left;
+    clear: both;
+    width: 400px;
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 515px;
+}
+
+/**** FOOTER ****/
+
+.social{
+    clear: both;
+    float: left;
+    margin-left: 560px;
+    margin-top: 100px;
+}
+
+.social li{    
+    display: inline;
+    list-style: none;
+    padding: 0 25px;
+
+}
